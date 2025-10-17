@@ -1,0 +1,9 @@
+api:
+  api-version: ${API_VERSION}
+
+secrets:
+  access-token: ${ACCESS_TOKEN}
+
+datasource:
+  mongo:
+    url: ${MONGO_URL_SPRING}
